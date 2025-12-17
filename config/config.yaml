@@ -1,0 +1,66 @@
+# SHL Assessment Recommender Configuration
+
+# Data paths
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  predictions_dir: "data/predictions"
+  catalog_file: "data/raw/shl_assessments.json"
+  train_file: "data/raw/train.csv"
+  test_file: "data/raw/test.csv"
+
+# Embedding configuration
+embeddings:
+  model_name: "all-MiniLM-L6-v2"
+  # Alternative: "all-mpnet-base-v2" for better quality
+  device: "cpu"
+  batch_size: 32
+
+# Vector store configuration
+vectorstore:
+  type: "chroma"  # or "faiss"
+  persist_directory: "data/processed/vectorstore"
+  collection_name: "shl_assessments"
+
+# Retrieval configuration
+retrieval:
+  base_k: 40  # Initial retrieval count
+  top_k: 20   # After MMR filtering
+  final_k: 10 # Final recommendations
+  mmr_lambda: 0.7  # Diversity vs relevance (0=max diversity, 1=max relevance)
+  score_threshold: 0.3
+
+# LLM configuration
+llm:
+  provider: "gemini"  # or "openai"
+  model: "gemini-1.5-flash"
+  temperature: 0.3
+  max_tokens: 1000
+
+# Recommendation configuration
+recommendation:
+  enable_balancing: true
+  enable_reranking: true
+  enable_query_enhancement: false
+  min_per_type: 1  # Minimum assessments per test type when applicable
+
+# Evaluation configuration
+evaluation:
+  recall_k_values: [5, 10, 20]
+  
+# Scraper configuration
+scraper:
+  base_url: "https://www.shl.com"
+  catalog_url: "https://www.shl.com/solutions/products/assessments/"
+  delay_seconds: 1
+  timeout: 30
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+# API configuration
+api:
+  title: "SHL Assessment Recommendation API"
+  description: "Intelligent RAG-based assessment recommendation system"
+  version: "1.0.0"
+  host: "0.0.0.0"
+  port: 8000
+  max_recommendations: 10

@@ -1,0 +1,722 @@
+[
+  {
+    "name": "Verify Interactive - Numerical Reasoning",
+    "url": "https://www.shl.com/solutions/products/assessments/numerical-reasoning/",
+    "description": "Measures numerical reasoning ability through interactive questions that assess data interpretation and numerical problem-solving skills.",
+    "test_type": "C",
+    "category": "Numerical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Verbal Reasoning",
+    "url": "https://www.shl.com/solutions/products/assessments/verbal-reasoning/",
+    "description": "Evaluates verbal reasoning ability and comprehension skills through passage-based questions.",
+    "test_type": "C",
+    "category": "Verbal Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Inductive Reasoning",
+    "url": "https://www.shl.com/solutions/products/assessments/inductive-reasoning/",
+    "description": "Assesses logical thinking and pattern recognition through abstract reasoning problems.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Deductive Reasoning",
+    "url": "https://www.shl.com/solutions/products/assessments/deductive-reasoning/",
+    "description": "Measures deductive logical reasoning and ability to draw valid conclusions from given information.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "OPQ - Occupational Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessments/opq/",
+    "description": "Comprehensive personality assessment measuring behavioral traits and work style preferences across multiple dimensions.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Motivation Questionnaire (MQ)",
+    "url": "https://www.shl.com/solutions/products/assessments/motivation-questionnaire/",
+    "description": "Assesses motivational factors and values that drive workplace behavior and performance.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "20 minutes"
+  },
+  {
+    "name": "Java Programming Skills Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-java/",
+    "description": "Technical assessment measuring Java programming knowledge, syntax, OOP concepts, and problem-solving abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Python Programming Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-python/",
+    "description": "Evaluates Python programming skills including data structures, algorithms, and practical coding abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "SQL Database Skills Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-sql/",
+    "description": "Tests SQL knowledge including query writing, database design, joins, and data manipulation.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Microsoft Excel Skills Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-excel/",
+    "description": "Measures proficiency in Excel including formulas, functions, data analysis, and spreadsheet management.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Leadership Judgment Indicator (LJI)",
+    "url": "https://www.shl.com/solutions/products/assessments/leadership-judgment/",
+    "description": "Assesses leadership decision-making and judgment in workplace scenarios.",
+    "test_type": "S",
+    "category": "Leadership & Management",
+    "duration": "20 minutes"
+  },
+  {
+    "name": "Management and Graduate Item Bank (MGIB)",
+    "url": "https://www.shl.com/solutions/products/assessments/mgib/",
+    "description": "Comprehensive cognitive ability assessment for graduate and management level candidates.",
+    "test_type": "C",
+    "category": "General Aptitude",
+    "duration": "45 minutes"
+  },
+  {
+    "name": "Customer Service Aptitude Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/customer-service/",
+    "description": "Evaluates customer service skills including communication, problem-solving, and empathy.",
+    "test_type": "S",
+    "category": "Sales & Customer Service",
+    "duration": "20 minutes"
+  },
+  {
+    "name": "Sales Aptitude Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/sales-assessment/",
+    "description": "Measures sales-related competencies including persuasion, negotiation, and customer engagement.",
+    "test_type": "S",
+    "category": "Sales & Customer Service",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "JavaScript/TypeScript Skills Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-javascript/",
+    "description": "Technical assessment of JavaScript and TypeScript programming abilities including ES6+ features.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Data Analysis and Interpretation",
+    "url": "https://www.shl.com/solutions/products/product-catalog/data-analysis/",
+    "description": "Assesses ability to analyze data sets, identify trends, and draw meaningful conclusions.",
+    "test_type": "C",
+    "category": "Data Analysis",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Financial Reasoning Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/financial-reasoning/",
+    "description": "Evaluates understanding of financial concepts, statements, and numerical analysis in business context.",
+    "test_type": "C",
+    "category": "Numerical Reasoning",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Critical Thinking Skills Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/critical-thinking/",
+    "description": "Measures critical thinking, logical analysis, and decision-making abilities.",
+    "test_type": "C",
+    "category": "General Aptitude",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Teamwork and Collaboration Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/teamwork/",
+    "description": "Evaluates interpersonal skills, teamwork abilities, and collaborative problem-solving.",
+    "test_type": "P",
+    "category": "Interpersonal Skills",
+    "duration": "20 minutes"
+  },
+  {
+    "name": "C++ Programming Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-cpp/",
+    "description": "Technical test of C++ programming knowledge including memory management, OOP, and algorithms.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "35 minutes"
+  },
+  {
+    "name": "Verify Interactive - Numerical Reasoning - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/assessments/numerical-reasoning/?level=entry-level",
+    "description": "Entry-Level Measures numerical reasoning ability through interactive questions that assess data interpretation and numerical problem-solving skills.",
+    "test_type": "C",
+    "category": "Numerical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Numerical Reasoning - Intermediate",
+    "url": "https://www.shl.com/solutions/products/assessments/numerical-reasoning/?level=intermediate",
+    "description": "Intermediate Measures numerical reasoning ability through interactive questions that assess data interpretation and numerical problem-solving skills.",
+    "test_type": "C",
+    "category": "Numerical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Numerical Reasoning - Advanced",
+    "url": "https://www.shl.com/solutions/products/assessments/numerical-reasoning/?level=advanced",
+    "description": "Advanced Measures numerical reasoning ability through interactive questions that assess data interpretation and numerical problem-solving skills.",
+    "test_type": "C",
+    "category": "Numerical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Numerical Reasoning - Expert",
+    "url": "https://www.shl.com/solutions/products/assessments/numerical-reasoning/?level=expert",
+    "description": "Expert Measures numerical reasoning ability through interactive questions that assess data interpretation and numerical problem-solving skills.",
+    "test_type": "C",
+    "category": "Numerical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Verbal Reasoning - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/assessments/verbal-reasoning/?level=entry-level",
+    "description": "Entry-Level Evaluates verbal reasoning ability and comprehension skills through passage-based questions.",
+    "test_type": "C",
+    "category": "Verbal Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Verbal Reasoning - Intermediate",
+    "url": "https://www.shl.com/solutions/products/assessments/verbal-reasoning/?level=intermediate",
+    "description": "Intermediate Evaluates verbal reasoning ability and comprehension skills through passage-based questions.",
+    "test_type": "C",
+    "category": "Verbal Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Verbal Reasoning - Advanced",
+    "url": "https://www.shl.com/solutions/products/assessments/verbal-reasoning/?level=advanced",
+    "description": "Advanced Evaluates verbal reasoning ability and comprehension skills through passage-based questions.",
+    "test_type": "C",
+    "category": "Verbal Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Verbal Reasoning - Expert",
+    "url": "https://www.shl.com/solutions/products/assessments/verbal-reasoning/?level=expert",
+    "description": "Expert Evaluates verbal reasoning ability and comprehension skills through passage-based questions.",
+    "test_type": "C",
+    "category": "Verbal Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Inductive Reasoning - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/assessments/inductive-reasoning/?level=entry-level",
+    "description": "Entry-Level Assesses logical thinking and pattern recognition through abstract reasoning problems.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Inductive Reasoning - Intermediate",
+    "url": "https://www.shl.com/solutions/products/assessments/inductive-reasoning/?level=intermediate",
+    "description": "Intermediate Assesses logical thinking and pattern recognition through abstract reasoning problems.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Inductive Reasoning - Advanced",
+    "url": "https://www.shl.com/solutions/products/assessments/inductive-reasoning/?level=advanced",
+    "description": "Advanced Assesses logical thinking and pattern recognition through abstract reasoning problems.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Inductive Reasoning - Expert",
+    "url": "https://www.shl.com/solutions/products/assessments/inductive-reasoning/?level=expert",
+    "description": "Expert Assesses logical thinking and pattern recognition through abstract reasoning problems.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Deductive Reasoning - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/assessments/deductive-reasoning/?level=entry-level",
+    "description": "Entry-Level Measures deductive logical reasoning and ability to draw valid conclusions from given information.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Deductive Reasoning - Intermediate",
+    "url": "https://www.shl.com/solutions/products/assessments/deductive-reasoning/?level=intermediate",
+    "description": "Intermediate Measures deductive logical reasoning and ability to draw valid conclusions from given information.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Deductive Reasoning - Advanced",
+    "url": "https://www.shl.com/solutions/products/assessments/deductive-reasoning/?level=advanced",
+    "description": "Advanced Measures deductive logical reasoning and ability to draw valid conclusions from given information.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "Verify Interactive - Deductive Reasoning - Expert",
+    "url": "https://www.shl.com/solutions/products/assessments/deductive-reasoning/?level=expert",
+    "description": "Expert Measures deductive logical reasoning and ability to draw valid conclusions from given information.",
+    "test_type": "C",
+    "category": "Logical Reasoning",
+    "duration": "18 minutes"
+  },
+  {
+    "name": "OPQ - Occupational Personality Questionnaire - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/assessments/opq/?level=entry-level",
+    "description": "Entry-Level Comprehensive personality assessment measuring behavioral traits and work style preferences across multiple dimensions.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "OPQ - Occupational Personality Questionnaire - Intermediate",
+    "url": "https://www.shl.com/solutions/products/assessments/opq/?level=intermediate",
+    "description": "Intermediate Comprehensive personality assessment measuring behavioral traits and work style preferences across multiple dimensions.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "OPQ - Occupational Personality Questionnaire - Advanced",
+    "url": "https://www.shl.com/solutions/products/assessments/opq/?level=advanced",
+    "description": "Advanced Comprehensive personality assessment measuring behavioral traits and work style preferences across multiple dimensions.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "OPQ - Occupational Personality Questionnaire - Expert",
+    "url": "https://www.shl.com/solutions/products/assessments/opq/?level=expert",
+    "description": "Expert Comprehensive personality assessment measuring behavioral traits and work style preferences across multiple dimensions.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Motivation Questionnaire (MQ) - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/assessments/motivation-questionnaire/?level=entry-level",
+    "description": "Entry-Level Assesses motivational factors and values that drive workplace behavior and performance.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "20 minutes"
+  },
+  {
+    "name": "Motivation Questionnaire (MQ) - Intermediate",
+    "url": "https://www.shl.com/solutions/products/assessments/motivation-questionnaire/?level=intermediate",
+    "description": "Intermediate Assesses motivational factors and values that drive workplace behavior and performance.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "20 minutes"
+  },
+  {
+    "name": "Motivation Questionnaire (MQ) - Advanced",
+    "url": "https://www.shl.com/solutions/products/assessments/motivation-questionnaire/?level=advanced",
+    "description": "Advanced Assesses motivational factors and values that drive workplace behavior and performance.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "20 minutes"
+  },
+  {
+    "name": "Motivation Questionnaire (MQ) - Expert",
+    "url": "https://www.shl.com/solutions/products/assessments/motivation-questionnaire/?level=expert",
+    "description": "Expert Assesses motivational factors and values that drive workplace behavior and performance.",
+    "test_type": "P",
+    "category": "Personality Assessment",
+    "duration": "20 minutes"
+  },
+  {
+    "name": "Java Programming Skills Assessment - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-java/?level=entry-level",
+    "description": "Entry-Level Technical assessment measuring Java programming knowledge, syntax, OOP concepts, and problem-solving abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Java Programming Skills Assessment - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-java/?level=intermediate",
+    "description": "Intermediate Technical assessment measuring Java programming knowledge, syntax, OOP concepts, and problem-solving abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Java Programming Skills Assessment - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-java/?level=advanced",
+    "description": "Advanced Technical assessment measuring Java programming knowledge, syntax, OOP concepts, and problem-solving abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Java Programming Skills Assessment - Expert",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-java/?level=expert",
+    "description": "Expert Technical assessment measuring Java programming knowledge, syntax, OOP concepts, and problem-solving abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Python Programming Assessment - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-python/?level=entry-level",
+    "description": "Entry-Level Evaluates Python programming skills including data structures, algorithms, and practical coding abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Python Programming Assessment - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-python/?level=intermediate",
+    "description": "Intermediate Evaluates Python programming skills including data structures, algorithms, and practical coding abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Python Programming Assessment - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-python/?level=advanced",
+    "description": "Advanced Evaluates Python programming skills including data structures, algorithms, and practical coding abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Python Programming Assessment - Expert",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-python/?level=expert",
+    "description": "Expert Evaluates Python programming skills including data structures, algorithms, and practical coding abilities.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "SQL Database Skills Test - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-sql/?level=entry-level",
+    "description": "Entry-Level Tests SQL knowledge including query writing, database design, joins, and data manipulation.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "SQL Database Skills Test - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-sql/?level=intermediate",
+    "description": "Intermediate Tests SQL knowledge including query writing, database design, joins, and data manipulation.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "SQL Database Skills Test - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-sql/?level=advanced",
+    "description": "Advanced Tests SQL knowledge including query writing, database design, joins, and data manipulation.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "SQL Database Skills Test - Expert",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-sql/?level=expert",
+    "description": "Expert Tests SQL knowledge including query writing, database design, joins, and data manipulation.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Microsoft Excel Skills Assessment - Entry-Level",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-excel/?level=entry-level",
+    "description": "Entry-Level Measures proficiency in Excel including formulas, functions, data analysis, and spreadsheet management.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Microsoft Excel Skills Assessment - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-excel/?level=intermediate",
+    "description": "Intermediate Measures proficiency in Excel including formulas, functions, data analysis, and spreadsheet management.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Microsoft Excel Skills Assessment - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-excel/?level=advanced",
+    "description": "Advanced Measures proficiency in Excel including formulas, functions, data analysis, and spreadsheet management.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Microsoft Excel Skills Assessment - Expert",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-excel/?level=expert",
+    "description": "Expert Measures proficiency in Excel including formulas, functions, data analysis, and spreadsheet management.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "30 minutes"
+  },
+  {
+    "name": "Cloud Computing (AWS/Azure) - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cloud-computing-(aws/azure)-basic/",
+    "description": "Basic assessment of Cloud architecture and services knowledge.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Cloud Computing (AWS/Azure) - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cloud-computing-(aws/azure)-intermediate/",
+    "description": "Intermediate assessment of Cloud architecture and services knowledge.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Cloud Computing (AWS/Azure) - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cloud-computing-(aws/azure)-advanced/",
+    "description": "Advanced assessment of Cloud architecture and services knowledge.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Machine Learning Fundamentals - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/machine-learning-fundamentals-basic/",
+    "description": "Basic assessment of ML algorithms and data science concepts.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Machine Learning Fundamentals - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/machine-learning-fundamentals-intermediate/",
+    "description": "Intermediate assessment of ML algorithms and data science concepts.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Machine Learning Fundamentals - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/machine-learning-fundamentals-advanced/",
+    "description": "Advanced assessment of ML algorithms and data science concepts.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Cybersecurity Awareness - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cybersecurity-awareness-basic/",
+    "description": "Basic assessment of Security principles and best practices.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Cybersecurity Awareness - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cybersecurity-awareness-intermediate/",
+    "description": "Intermediate assessment of Security principles and best practices.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Cybersecurity Awareness - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/cybersecurity-awareness-advanced/",
+    "description": "Advanced assessment of Security principles and best practices.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Project Management Skills - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/project-management-skills-basic/",
+    "description": "Basic assessment of Project planning and execution.",
+    "test_type": "S",
+    "category": "Leadership & Management",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Project Management Skills - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/project-management-skills-intermediate/",
+    "description": "Intermediate assessment of Project planning and execution.",
+    "test_type": "S",
+    "category": "Leadership & Management",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Project Management Skills - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/project-management-skills-advanced/",
+    "description": "Advanced assessment of Project planning and execution.",
+    "test_type": "S",
+    "category": "Leadership & Management",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Agile/Scrum Knowledge - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/agile/scrum-knowledge-basic/",
+    "description": "Basic assessment of Agile methodologies and practices.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Agile/Scrum Knowledge - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/agile/scrum-knowledge-intermediate/",
+    "description": "Intermediate assessment of Agile methodologies and practices.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Agile/Scrum Knowledge - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/agile/scrum-knowledge-advanced/",
+    "description": "Advanced assessment of Agile methodologies and practices.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Business Analysis Skills - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/business-analysis-skills-basic/",
+    "description": "Basic assessment of Requirements gathering and analysis.",
+    "test_type": "C",
+    "category": "Business Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Business Analysis Skills - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/business-analysis-skills-intermediate/",
+    "description": "Intermediate assessment of Requirements gathering and analysis.",
+    "test_type": "C",
+    "category": "Business Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Business Analysis Skills - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/business-analysis-skills-advanced/",
+    "description": "Advanced assessment of Requirements gathering and analysis.",
+    "test_type": "C",
+    "category": "Business Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "UI/UX Design Principles - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/ui/ux-design-principles-basic/",
+    "description": "Basic assessment of User interface and experience design.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "UI/UX Design Principles - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/ui/ux-design-principles-intermediate/",
+    "description": "Intermediate assessment of User interface and experience design.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "UI/UX Design Principles - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/ui/ux-design-principles-advanced/",
+    "description": "Advanced assessment of User interface and experience design.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Network Administration - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/network-administration-basic/",
+    "description": "Basic assessment of Network configuration and troubleshooting.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Network Administration - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/network-administration-intermediate/",
+    "description": "Intermediate assessment of Network configuration and troubleshooting.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Network Administration - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/network-administration-advanced/",
+    "description": "Advanced assessment of Network configuration and troubleshooting.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "DevOps Practices - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/devops-practices-basic/",
+    "description": "Basic assessment of CI/CD and infrastructure automation.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "DevOps Practices - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/devops-practices-intermediate/",
+    "description": "Intermediate assessment of CI/CD and infrastructure automation.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "DevOps Practices - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/devops-practices-advanced/",
+    "description": "Advanced assessment of CI/CD and infrastructure automation.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Quality Assurance Testing - Basic",
+    "url": "https://www.shl.com/solutions/products/product-catalog/quality-assurance-testing-basic/",
+    "description": "Basic assessment of Testing methodologies and tools.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Quality Assurance Testing - Intermediate",
+    "url": "https://www.shl.com/solutions/products/product-catalog/quality-assurance-testing-intermediate/",
+    "description": "Intermediate assessment of Testing methodologies and tools.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  },
+  {
+    "name": "Quality Assurance Testing - Advanced",
+    "url": "https://www.shl.com/solutions/products/product-catalog/quality-assurance-testing-advanced/",
+    "description": "Advanced assessment of Testing methodologies and tools.",
+    "test_type": "K",
+    "category": "Technical Skills",
+    "duration": "25 minutes"
+  }
+]

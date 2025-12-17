@@ -1,0 +1,35 @@
+# Render Blueprint for SHL RAG System
+services:
+  # FastAPI Backend
+  - type: web
+    name: shl-rag-api
+    env: python
+    region: oregon
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn src.api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: ENV
+        value: production
+    healthCheckPath: /health
+    autoDeploy: true
+
+  # Streamlit Frontend
+  - type: web
+    name: shl-rag-frontend
+    env: python
+    region: oregon
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run src/frontend/app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: API_URL
+        fromService:
+          type: web
+          name: shl-rag-api
+          envVarKey: RENDER_EXTERNAL_URL
+    autoDeploy: true

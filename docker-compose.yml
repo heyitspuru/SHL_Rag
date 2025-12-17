@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  shl-rag-api:
+    build: .
+    container_name: shl-rag-api
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=production
+      - LOG_LEVEL=info
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  shl-rag-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: shl-rag-frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://shl-rag-api:8000
+    depends_on:
+      - shl-rag-api
+    restart: unless-stopped
