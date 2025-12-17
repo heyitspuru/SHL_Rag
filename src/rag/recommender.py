@@ -232,17 +232,23 @@ Ranking:"""
             # Extract duration in minutes (convert "30 minutes" to 30)
             duration_str = doc.metadata.get('duration', '30 minutes')
             try:
-                duration_minutes = int(duration_str.split()[0]) if duration_str else 30
-            except:
+                # Handle various formats: "30 minutes", "30", "30 mins", etc.
+                if duration_str and isinstance(duration_str, str):
+                    duration_minutes = int(duration_str.split()[0])
+                elif duration_str and isinstance(duration_str, (int, float)):
+                    duration_minutes = int(duration_str)
+                else:
+                    duration_minutes = 30
+            except (ValueError, IndexError, AttributeError):
                 duration_minutes = 30
             
             recommendations.append({
-                'assessment_name': doc.metadata['name'],
-                'assessment_url': doc.metadata['url'],
-                'test_type': doc.metadata['test_type'],
-                'category': doc.metadata['category'],
+                'assessment_name': doc.metadata.get('name', 'Unknown Assessment'),
+                'assessment_url': doc.metadata.get('url', ''),
+                'test_type': doc.metadata.get('test_type', 'K'),
+                'category': doc.metadata.get('category', 'General'),
                 'duration_minutes': duration_minutes,
-                'description': doc.page_content if doc.page_content else doc.metadata.get('description', '')
+                'description': doc.metadata.get('description', doc.page_content if doc.page_content else '')
             })
         
         logger.info(f"✅ Returning {len(recommendations)} recommendations")
@@ -326,7 +332,7 @@ def main():
         print(f"\n📋 Top {len(recommendations)} Recommendations:\n")
         for i, rec in enumerate(recommendations, 1):
             print(f"{i}. {rec['assessment_name']}")
-            print(f"   Type: {rec['test_type']} | Category: {rec['category']} | Duration: {rec['duration']}")
+            print(f"   Type: {rec['test_type']} | Category: {rec['category']} | Duration: {rec['duration_minutes']} minutes")
             print(f"   URL: {rec['assessment_url']}")
             print()
         

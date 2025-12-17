@@ -85,7 +85,8 @@ Duration: {row.get('duration', 'Varies')}"""
                     'url': row['url'],
                     'test_type': row['test_type'],
                     'category': row['category'],
-                    'duration': row.get('duration', 'Varies'),
+                    'duration': row.get('duration', '30 minutes'),
+                    'description': row.get('description', ''),
                     'index': idx
                 }
             )

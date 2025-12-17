@@ -160,7 +160,7 @@ with tab1:
                             
                             with col_a:
                                 st.markdown(f"**{i}. {rec['assessment_name']}**")
-                                st.markdown(f"*{rec['category']} | Duration: {rec['duration']}*")
+                                st.markdown(f"*{rec['category']} | Duration: {rec['duration_minutes']} minutes*")
                                 st.markdown(f"[🔗 View Assessment]({rec['assessment_url']})")
                             
                             with col_b:
