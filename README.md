@@ -7,8 +7,8 @@ Intelligent RAG-based system for recommending relevant SHL assessments based on 
 
 ## 🚀 Quick Links
 
-- **Live Demo**: [Streamlit App](https://your-app.streamlit.app) _(Deploy after setup)_
-- **API Endpoint**: [FastAPI Docs](http://localhost:8000/docs) _(Run locally)_
+- **Live Demo**: [Streamlit App](http://40.81.21.241:8501)
+- **API Endpoint**: [FastAPI Docs](http://40.81.21.241:8000/docs)
 - **Documentation**: [Approach Document](approach_document.md)
 
 ## 📋 Project Overview
@@ -374,6 +374,8 @@ services:
 3. Connect repository
 4. Deploy `src/frontend/app.py`
 
+### I have personally used Microsoft Azure with provisioing Virtual Machine
+
 ## 📚 Key Files Explained
 
 | File | Purpose |
@@ -403,7 +405,7 @@ This project was created as part of SHL's hiring assessment.
 
 ## 👤 Author
 
-Your Name - [email@example.com](mailto:email@example.com)
+Your Name - [Puru Raj Dhama](mailto:pururajdhama2004@gmail.com)
 
 ## 🙏 Acknowledgments
 
